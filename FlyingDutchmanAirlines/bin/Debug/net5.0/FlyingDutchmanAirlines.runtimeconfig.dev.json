@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/apryk/.dotnet/store/|arch|/|tfm|",
+      "/Users/apryk/.nuget/packages"
+    ]
+  }
+}
