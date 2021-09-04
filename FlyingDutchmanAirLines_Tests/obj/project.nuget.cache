@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qCn62CdV8pkrWA4RIWmGeA/DhiDIAC3xNrx7MGVKb+aSHKEqqurvXO5DJk5NoPqVj6aROLw4zeXYrfLT1JCGxA==",
+  "dgSpecHash": "WCD15qRIuhoIwP+5IhlKYYROFlanAqrDFap1CgFnkhgD5aSHJtVh0Wrcs7V3GaBoPoZlb5AwEs01GKYz9pMXWQ==",
   "success": true,
   "projectFilePath": "/Users/apryk/Projects/FlyingDutchman/FlyingDutchmanAirLines_Tests/FlyingDutchmanAirLines_Tests.csproj",
   "expectedPackageFiles": [
@@ -9,9 +9,10 @@
     "/Users/apryk/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/apryk/.nuget/packages/microsoft.data.sqlclient/2.0.1/microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "/Users/apryk/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.0.1/microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
-    "/Users/apryk/.nuget/packages/microsoft.entityframeworkcore/5.0.8/microsoft.entityframeworkcore.5.0.8.nupkg.sha512",
-    "/Users/apryk/.nuget/packages/microsoft.entityframeworkcore.abstractions/5.0.8/microsoft.entityframeworkcore.abstractions.5.0.8.nupkg.sha512",
-    "/Users/apryk/.nuget/packages/microsoft.entityframeworkcore.analyzers/5.0.8/microsoft.entityframeworkcore.analyzers.5.0.8.nupkg.sha512",
+    "/Users/apryk/.nuget/packages/microsoft.entityframeworkcore/5.0.9/microsoft.entityframeworkcore.5.0.9.nupkg.sha512",
+    "/Users/apryk/.nuget/packages/microsoft.entityframeworkcore.abstractions/5.0.9/microsoft.entityframeworkcore.abstractions.5.0.9.nupkg.sha512",
+    "/Users/apryk/.nuget/packages/microsoft.entityframeworkcore.analyzers/5.0.9/microsoft.entityframeworkcore.analyzers.5.0.9.nupkg.sha512",
+    "/Users/apryk/.nuget/packages/microsoft.entityframeworkcore.inmemory/5.0.9/microsoft.entityframeworkcore.inmemory.5.0.9.nupkg.sha512",
     "/Users/apryk/.nuget/packages/microsoft.entityframeworkcore.relational/5.0.8/microsoft.entityframeworkcore.relational.5.0.8.nupkg.sha512",
     "/Users/apryk/.nuget/packages/microsoft.entityframeworkcore.sqlserver/5.0.8/microsoft.entityframeworkcore.sqlserver.5.0.8.nupkg.sha512",
     "/Users/apryk/.nuget/packages/microsoft.extensions.caching.abstractions/5.0.0/microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",

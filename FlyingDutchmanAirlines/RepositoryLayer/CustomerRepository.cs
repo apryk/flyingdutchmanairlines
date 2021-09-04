@@ -8,6 +8,12 @@ namespace FlyingDutchmanAirlines.RepositoryLayer
 {
     public class CustomerRepository
     {
+        private readonly FlyingDutchmanAirlinesContext _ctx;
+
+        public CustomerRepository(FlyingDutchmanAirlinesContext ctx)
+        {
+            _ctx = ctx;
+        }
         private bool IsInvalidCustomerName(string name)
         {
             char[] forbiddenCharacters = { '!', '@', '#', '$', '%', '&', '*' };
@@ -19,14 +25,22 @@ namespace FlyingDutchmanAirlines.RepositoryLayer
             if (IsInvalidCustomerName(name))
                 return false;
             var customer = new Customer(name);
-            using(FlyingDutchmanAirlinesContext ctx = new FlyingDutchmanAirlinesContext())
+            try
             {
-                if (await ctx.Database.CanConnectAsync() == false)
-                    throw new Exception("Cant connect to database");
-                await ctx.Database.EnsureCreatedAsync();
-                ctx.Customers.Add(customer);
-                await ctx.SaveChangesAsync();
+                using (_ctx)
+                {
+                    if (await _ctx.Database.CanConnectAsync() == false)
+                        throw new Exception("Cant connect to database");
+                    await _ctx.Database.EnsureCreatedAsync();
+                    _ctx.Customers.Add(customer);
+                    await _ctx.SaveChangesAsync();
+                }
             }
+            catch (Exception ex)
+            {
+                return false;
+            }
+            
 
             return true;
         }
