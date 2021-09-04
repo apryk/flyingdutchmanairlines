@@ -15,5 +15,8 @@ namespace FlyingDutchmanAirlines
     {
       services.AddControllers();
     }
+        // "ConnectionStrings": {
+        //    "sqlConnection": "server=localhost, 1433; database=CompanyEmployee; User Id=sa; Password=P@55word;"
+        // },
   }
 }

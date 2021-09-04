@@ -17,4 +17,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.8" />
   </ItemGroup>
   
+  <ItemGroup>
+    <None Remove="RepositoryLayer\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RepositoryLayer\" />
+  </ItemGroup>
 </Project>

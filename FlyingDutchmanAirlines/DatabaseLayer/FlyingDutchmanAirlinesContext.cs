@@ -27,8 +27,9 @@ namespace FlyingDutchmanAirlines.DatabaseLayer
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=tcp:codelikeacsharppro.database.windows.net,1433;Initial Catalog=FlyingDutchmanAirlines;Persist Security Info=False;User ID=dev;Password=FlyingDutchmanAirlines1972!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+                optionsBuilder.UseSqlServer("server=localhost, 1433; database=FlyingDutchman; User Id=sa; Password=P@55word;");
+                 
+               //optionsBuilder.UseSqlServer("Server=tcp:codelikeacsharppro.database.windows.net,1433;Initial Catalog=FlyingDutchmanAirlines;Persist Security Info=False;User ID=dev;Password=FlyingDutchmanAirlines1972!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             }
         }
 
@@ -108,9 +109,9 @@ namespace FlyingDutchmanAirlines.DatabaseLayer
                     .OnDelete(DeleteBehavior.ClientSetNull);
             });
 
-            OnModelCreatingPartial(modelBuilder);
+            //OnModelCreatingPartial(modelBuilder);
         }
 
-        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+        //partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }
