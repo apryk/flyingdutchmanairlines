@@ -19,8 +19,10 @@
   
   <ItemGroup>
     <None Remove="RepositoryLayer\" />
+    <None Remove="Exceptions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="RepositoryLayer\" />
+    <Folder Include="Exceptions\" />
   </ItemGroup>
 </Project>

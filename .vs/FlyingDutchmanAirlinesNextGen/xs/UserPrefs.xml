@@ -1,15 +1,11 @@
 ﻿<Properties StartupConfiguration="{2736B47D-1394-4BDD-BFF0-327917411C88}|Default">
   <MonoDevelop.Ide.ItemProperties.FlyingDutchmanAirLines__Tests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.FlyingDutchmanAirlines PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FlyingDutchmanAirlines/DatabaseLayer/FlyingDutchmanAirlinesContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FlyingDutchmanAirLines_Tests/CustomerRepositoryTests.cs">
     <Files>
-      <File FileName="FlyingDutchmanAirlines/DatabaseLayer/FlyingDutchmanAirlinesContext.cs" Line="25" Column="1" />
-      <File FileName="FlyingDutchmanAirlines/DatabaseLayer/Models/Airport.cs" />
-      <File FileName="FlyingDutchmanAirlines/Program.cs" Line="1" Column="1" />
-      <File FileName="FlyingDutchmanAirlines/RepositoryLayer/CustomerRepository.cs" Line="25" Column="16" />
-      <File FileName="FlyingDutchmanAirLines_Tests/CustomerRepositoryTests.cs" Line="51" Column="33" />
-      <File FileName="FlyingDutchmanAirlines/DatabaseLayer/Models/Customer.cs" Line="18" Column="25" />
-      <File FileName="FlyingDutchmanAirlines/Startup.cs" Line="1" Column="1" />
+      <File FileName="FlyingDutchmanAirlines/RepositoryLayer/CustomerRepository.cs" Line="53" Column="39" />
+      <File FileName="FlyingDutchmanAirLines_Tests/CustomerRepositoryTests.cs" Line="58" Column="60" />
+      <File FileName="FlyingDutchmanAirlines/DatabaseLayer/Models/Customer.cs" Line="15" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,11 +14,14 @@
             <Node name="FlyingDutchmanAirlines" expanded="True">
               <Node name="DatabaseLayer" expanded="True">
                 <Node name="Models" expanded="True" />
-                <Node name="FlyingDutchmanAirlinesContext.cs" selected="True" />
               </Node>
+              <Node name="Exceptions" expanded="True" />
               <Node name="RepositoryLayer" expanded="True" />
             </Node>
-            <Node name="FlyingDutchmanAirLines_Tests" expanded="True" />
+            <Node name="FlyingDutchmanAirLines_Tests" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="CustomerRepositoryTests.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -31,7 +30,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/apryk/Projects/FlyingDutchman/FlyingDutchmanAirLines_Tests/CustomerRepositoryTests.cs" relfile="FlyingDutchmanAirLines_Tests/CustomerRepositoryTests.cs" line="25" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
