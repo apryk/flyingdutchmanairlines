@@ -16,6 +16,7 @@ namespace FlyingDutchmanAirlines.RepositoryLayer
         {
             _ctx = ctx;
         }
+
         private bool IsInvalidCustomerName(string name)
         {
             char[] forbiddenCharacters = { '!', '@', '#', '$', '%', '&', '*' };
@@ -38,7 +39,7 @@ namespace FlyingDutchmanAirlines.RepositoryLayer
                     await _ctx.SaveChangesAsync();
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return false;
             }

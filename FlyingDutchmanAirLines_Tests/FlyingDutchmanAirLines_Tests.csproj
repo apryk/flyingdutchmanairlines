@@ -20,5 +20,9 @@
 
   <ItemGroup>
     <None Remove="Microsoft.EntityFrameworkCore.InMemory" />
+    <None Remove="Stubs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Stubs\" />
   </ItemGroup>
 </Project>

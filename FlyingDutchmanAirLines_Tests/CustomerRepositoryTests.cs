@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Threading.Tasks;
 using FlyingDutchmanAirlines.DatabaseLayer;
 using FlyingDutchmanAirlines.DatabaseLayer.Models;
@@ -79,6 +80,10 @@ namespace FlyingDutchmanAirLines_Tests
         {
             Customer customer = await _repository.GetCustomerByName("Linus Torvalds");
             Assert.IsNotNull(customer);
+
+            var dbCustomer = _context.Customers.First();
+            var areEqual = customer == dbCustomer;
+            Assert.IsTrue(areEqual);
         }
     }
 }

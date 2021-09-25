@@ -14,7 +14,7 @@
         "outputPath": "/Users/apryk/Projects/FlyingDutchman/FlyingDutchmanAirlines/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/apryk/.nuget/NuGet/NuGet.Config"
+          "/Users/apryk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }
