@@ -1,17 +1,13 @@
 ﻿<Properties StartupConfiguration="{2736B47D-1394-4BDD-BFF0-327917411C88}|Default">
   <MonoDevelop.Ide.ItemProperties.FlyingDutchmanAirLines__Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FlyingDutchmanAirLines_Tests/Stubs/FlyingDutchmanAirlinesContext_Stub (copy).cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FlyingDutchmanAirLines_Tests/FlightRepositoryTests.cs">
     <Files>
-      <File FileName="FlyingDutchmanAirlines/DatabaseLayer/Models/Booking.cs" Line="1" Column="1" IsPinned="True" />
-      <File FileName="FlyingDutchmanAirlines/RepositoryLayer/BookingRepository.cs" Line="11" Column="8" IsPinned="True" />
-      <File FileName="FlyingDutchmanAirLines_Tests/BookingRepositoryTests.cs" Line="20" Column="9" IsPinned="True" />
-      <File FileName="FlyingDutchmanAirlines/RepositoryLayer/AirportRepository.cs" Line="20" Column="10" />
-      <File FileName="FlyingDutchmanAirlines/RepositoryLayer/CustomerRepository.cs" Line="1" Column="1" />
-      <File FileName="FlyingDutchmanAirLines_Tests/AirportRepositoryTests.cs" Line="36" Column="25" />
-      <File FileName="FlyingDutchmanAirlines/Exceptions/AirportNotFoundException.cs" Line="5" Column="6" />
-      <File FileName="FlyingDutchmanAirlines/Exceptions/CouldNotAddEntityToDatabaseException.cs" Line="1" Column="1" />
-      <File FileName="FlyingDutchmanAirLines_Tests/Stubs/FlyingDutchmanAirlinesContext_Stub.cs" Line="37" Column="55" />
-      <File FileName="FlyingDutchmanAirLines_Tests/Stubs/FlyingDutchmanAirlinesContext_Stub (copy).cs" Line="1" Column="1" />
+      <File FileName="FlyingDutchmanAirlines/RepositoryLayer/FlightRepository.cs" Line="32" Column="87" />
+      <File FileName="FlyingDutchmanAirLines_Tests/FlightRepositoryTests.cs" Line="58" Column="10" />
+      <File FileName="FlyingDutchmanAirlines/Exceptions/FlightNotFoundException.cs" Line="1" Column="1" />
+      <File FileName="FlyingDutchmanAirLines_Tests/AirportRepositoryTests.cs" Line="76" Column="13" />
+      <File FileName="FlyingDutchmanAirlines/RepositoryLayer/AirportRepository.cs" Line="26" Column="1" />
+      <File FileName="FlyingDutchmanAirLines_Tests/Stubs/FlyingDutchmanAirlinesContext_FlightStub.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,9 +21,8 @@
               <Node name="RepositoryLayer" expanded="True" />
             </Node>
             <Node name="FlyingDutchmanAirLines_Tests" expanded="True">
-              <Node name="Stubs" expanded="True">
-                <Node name="FlyingDutchmanAirlinesContext_Stub (copy).cs" selected="True" />
-              </Node>
+              <Node name="Stubs" expanded="True" />
+              <Node name="FlightRepositoryTests.cs" selected="True" />
             </Node>
           </Node>
         </State>

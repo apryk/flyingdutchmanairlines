@@ -24,7 +24,6 @@ namespace FlyingDutchmanAirlines.RepositoryLayer
                 throw new ArgumentException("invalid argument provided");
             }
 
-            //return new Airport();
             return await _context.Airports.FirstOrDefaultAsync(a => a.AirportId == airportID)
                 ?? throw new AirportNotFoundException();
         }
