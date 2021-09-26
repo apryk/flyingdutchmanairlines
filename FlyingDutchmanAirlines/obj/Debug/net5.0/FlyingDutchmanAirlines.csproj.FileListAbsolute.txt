@@ -45,3 +45,4 @@
 /Users/apryk/Projects/FlyingDutchman/FlyingDutchmanAirlines/obj/Debug/net5.0/ref/FlyingDutchmanAirlines.dll
 /Users/apryk/Projects/FlyingDutchman/FlyingDutchmanAirlines/obj/Debug/net5.0/FlyingDutchmanAirlines.pdb
 /Users/apryk/Projects/FlyingDutchman/FlyingDutchmanAirlines/obj/Debug/net5.0/FlyingDutchmanAirlines.genruntimeconfig.cache
+/Users/apryk/Projects/FlyingDutchman/FlyingDutchmanAirlines/obj/Debug/net5.0/FlyingDutchmanAirlines.csproj.AssemblyReference.cache

@@ -14,7 +14,7 @@
         "outputPath": "/Users/apryk/Projects/FlyingDutchman/FlyingDutchmanAirlines/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/apryk/.config/NuGet/NuGet.Config"
+          "/Users/apryk/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -81,7 +81,7 @@
         "outputPath": "/Users/apryk/Projects/FlyingDutchman/FlyingDutchmanAirLines_Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/apryk/.config/NuGet/NuGet.Config"
+          "/Users/apryk/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
