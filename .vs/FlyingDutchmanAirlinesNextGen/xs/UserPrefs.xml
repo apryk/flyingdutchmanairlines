@@ -1,28 +1,25 @@
 ﻿<Properties StartupConfiguration="{2736B47D-1394-4BDD-BFF0-327917411C88}|Default">
   <MonoDevelop.Ide.ItemProperties.FlyingDutchmanAirLines__Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FlyingDutchmanAirLines_Tests/FlightRepositoryTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FlyingDutchmanAirlines/RepositoryLayer/CustomerRepository.cs">
     <Files>
-      <File FileName="FlyingDutchmanAirlines/RepositoryLayer/FlightRepository.cs" Line="32" Column="87" />
-      <File FileName="FlyingDutchmanAirLines_Tests/FlightRepositoryTests.cs" Line="58" Column="10" />
-      <File FileName="FlyingDutchmanAirlines/Exceptions/FlightNotFoundException.cs" Line="1" Column="1" />
-      <File FileName="FlyingDutchmanAirLines_Tests/AirportRepositoryTests.cs" Line="76" Column="13" />
-      <File FileName="FlyingDutchmanAirlines/RepositoryLayer/AirportRepository.cs" Line="26" Column="1" />
-      <File FileName="FlyingDutchmanAirLines_Tests/Stubs/FlyingDutchmanAirlinesContext_FlightStub.cs" Line="1" Column="1" />
+      <File FileName="FlyingDutchmanAirLines_Tests/ServiceLayer/CustomerServiceTests.cs" Line="42" Column="38" />
+      <File FileName="FlyingDutchmanAirlines/ServiceLayer/BookingService.cs" Line="24" Column="66" />
+      <File FileName="FlyingDutchmanAirlines/RepositoryLayer/BookingRepository.cs" Line="26" Column="10" />
+      <File FileName="FlyingDutchmanAirlines/RepositoryLayer/CustomerRepository.cs" Line="51" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FlyingDutchmanAirlinesNextGen" expanded="True">
             <Node name="FlyingDutchmanAirlines" expanded="True">
-              <Node name="DatabaseLayer" expanded="True">
-                <Node name="Models" expanded="True" />
+              <Node name="RepositoryLayer" expanded="True">
+                <Node name="CustomerRepository.cs" selected="True" />
               </Node>
-              <Node name="Exceptions" expanded="True" />
-              <Node name="RepositoryLayer" expanded="True" />
+              <Node name="ServiceLayer" expanded="True" />
             </Node>
             <Node name="FlyingDutchmanAirLines_Tests" expanded="True">
-              <Node name="Stubs" expanded="True" />
-              <Node name="FlightRepositoryTests.cs" selected="True" />
+              <Node name="RepositoryLayer" expanded="True" />
+              <Node name="ServiceLayer" expanded="True" />
             </Node>
           </Node>
         </State>

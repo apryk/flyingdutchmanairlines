@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "H2YK3DPzjF3ukiS+dz0sskbawT+aBg1DZ0mgaH+d8AK6+Iu/tMud5X71i1wCfFIxuGZgWDm8ceMuG10miGGgsw==",
+  "dgSpecHash": "J62XBbbGhdsaFCNInePuQvoaiCQKWLlIJWGE2qk6/6u8xJhQjWj+du7gv3x7ETXQtCuIs8G7xbUFxFWGxC/uNw==",
   "success": true,
   "projectFilePath": "/Users/apryk/Projects/FlyingDutchman/FlyingDutchmanAirLines_Tests/FlyingDutchmanAirLines_Tests.csproj",
   "expectedPackageFiles": [
+    "/Users/apryk/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
     "/Users/apryk/.nuget/packages/coverlet.collector/3.0.2/coverlet.collector.3.0.2.nupkg.sha512",
     "/Users/apryk/.nuget/packages/microsoft.codecoverage/16.9.4/microsoft.codecoverage.16.9.4.nupkg.sha512",
     "/Users/apryk/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
@@ -38,6 +39,7 @@
     "/Users/apryk/.nuget/packages/microsoft.win32.primitives/4.3.0/microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "/Users/apryk/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/apryk/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "/Users/apryk/.nuget/packages/moq/4.16.1/moq.4.16.1.nupkg.sha512",
     "/Users/apryk/.nuget/packages/mstest.testadapter/2.2.3/mstest.testadapter.2.2.3.nupkg.sha512",
     "/Users/apryk/.nuget/packages/mstest.testframework/2.2.3/mstest.testframework.2.2.3.nupkg.sha512",
     "/Users/apryk/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
@@ -135,7 +137,7 @@
     "/Users/apryk/.nuget/packages/system.text.regularexpressions/4.3.0/system.text.regularexpressions.4.3.0.nupkg.sha512",
     "/Users/apryk/.nuget/packages/system.threading/4.3.0/system.threading.4.3.0.nupkg.sha512",
     "/Users/apryk/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
-    "/Users/apryk/.nuget/packages/system.threading.tasks.extensions/4.3.0/system.threading.tasks.extensions.4.3.0.nupkg.sha512",
+    "/Users/apryk/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/Users/apryk/.nuget/packages/system.threading.timer/4.3.0/system.threading.timer.4.3.0.nupkg.sha512",
     "/Users/apryk/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512",
     "/Users/apryk/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",

@@ -132,3 +132,5 @@
 /Users/apryk/Projects/FlyingDutchman/FlyingDutchmanAirLines_Tests/obj/Debug/net5.0/ref/FlyingDutchmanAirLines_Tests.dll
 /Users/apryk/Projects/FlyingDutchman/FlyingDutchmanAirLines_Tests/obj/Debug/net5.0/FlyingDutchmanAirLines_Tests.pdb
 /Users/apryk/Projects/FlyingDutchman/FlyingDutchmanAirLines_Tests/obj/Debug/net5.0/FlyingDutchmanAirLines_Tests.genruntimeconfig.cache
+/Users/apryk/Projects/FlyingDutchman/FlyingDutchmanAirLines_Tests/bin/Debug/net5.0/Castle.Core.dll
+/Users/apryk/Projects/FlyingDutchman/FlyingDutchmanAirLines_Tests/bin/Debug/net5.0/Moq.dll
