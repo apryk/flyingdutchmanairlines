@@ -1,11 +1,9 @@
 ﻿<Properties StartupConfiguration="{2736B47D-1394-4BDD-BFF0-327917411C88}|Default">
   <MonoDevelop.Ide.ItemProperties.FlyingDutchmanAirLines__Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FlyingDutchmanAirlines/RepositoryLayer/CustomerRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FlyingDutchmanAirlines/RepositoryLayer/BookingRepository.cs">
     <Files>
-      <File FileName="FlyingDutchmanAirLines_Tests/ServiceLayer/CustomerServiceTests.cs" Line="42" Column="38" />
-      <File FileName="FlyingDutchmanAirlines/ServiceLayer/BookingService.cs" Line="24" Column="66" />
-      <File FileName="FlyingDutchmanAirlines/RepositoryLayer/BookingRepository.cs" Line="26" Column="10" />
-      <File FileName="FlyingDutchmanAirlines/RepositoryLayer/CustomerRepository.cs" Line="51" Column="23" />
+      <File FileName="FlyingDutchmanAirlines/RepositoryLayer/BookingRepository.cs" Line="22" Column="1" />
+      <File FileName="FlyingDutchmanAirlines/RepositoryLayer/CustomerRepository.cs" Line="63" Column="45" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +11,7 @@
           <Node name="FlyingDutchmanAirlinesNextGen" expanded="True">
             <Node name="FlyingDutchmanAirlines" expanded="True">
               <Node name="RepositoryLayer" expanded="True">
-                <Node name="CustomerRepository.cs" selected="True" />
+                <Node name="BookingRepository.cs" selected="True" />
               </Node>
               <Node name="ServiceLayer" expanded="True" />
             </Node>
@@ -24,12 +22,25 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="FlyingDutchmanAirlinesNextGen" expanded="True">
+            <Node name="FlyingDutchmanAirLines_Tests" expanded="True">
+              <Node name="FlyingDutchmanAirLines_Tests.ServiceLayer" expanded="True">
+                <Node name="BookingServiceTests" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/apryk/Projects/FlyingDutchman/FlyingDutchmanAirlines/RepositoryLayer/CustomerRepository.cs" relfile="FlyingDutchmanAirlines/RepositoryLayer/CustomerRepository.cs" line="65" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
